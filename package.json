@@ -1,59 +1,59 @@
 {
-  "name": "language-bemhtml",
-  "displayName": "language-bemhtml",
-  "description": "Language support for BEMHTML",
-  "version": "1.0.0",
-  "publisher": "sysoev",
-  "icon": "icon.svg",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/d4rkr00t/language-bemhtml.git"
-  },
-  "bugs": {
-    "url": "https://github.com/d4rkr00t/language-bemhtml/issues"
-  },
-  "engines": {
-    "vscode": "^0.10.10"
-  },
-  "categories": [
-    "Languages"
-  ],
-  "scripts": {
-    "pub": "vsce publish",
-    "patch": "vsce publish patch",
-    "minor": "vsce publish minor",
-    "major": "vsce publish major"
-  },
-  "contributes": {
-    "languages": [
-      {
-        "id": "bemhtml",
-        "aliases": [
-          "BEMHTML",
-          "bemhtml"
-        ],
-        "extensions": [
-          ".bemhtml",
-          ".bemtree.xjst"
-        ],
-        "configuration": "./bemhtml.configuration.json"
-      }
+    "name": "language-bemhtml",
+    "displayName": "language-bemhtml",
+    "description": "Language support for BEMHTML",
+    "version": "1.0.1",
+    "publisher": "sysoev",
+    "icon": "icon.svg",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/d4rkr00t/language-bemhtml.git"
+    },
+    "bugs": {
+        "url": "https://github.com/d4rkr00t/language-bemhtml/issues"
+    },
+    "engines": {
+        "vscode": "^0.10.10"
+    },
+    "categories": [
+        "Languages"
     ],
-    "grammars": [
-      {
-        "language": "bemhtml",
-        "scopeName": "source.bemhtml",
-        "path": "./syntaxes/bemhtml.json"
-      }
-    ],
-    "snippets": [
-      {
-        "language": "bemhtml",
-        "path": "./snippets/snippets.json"
-      }
-    ]
-  },
-  "devDependencies": {
-    "vsce": "^1.3.0"
-  }
+    "scripts": {
+        "pub": "vsce publish",
+        "patch": "vsce publish patch",
+        "minor": "vsce publish minor",
+        "major": "vsce publish major"
+    },
+    "contributes": {
+        "languages": [
+            {
+                "id": "bemhtml",
+                "aliases": [
+                    "BEMHTML",
+                    "bemhtml"
+                ],
+                "extensions": [
+                    ".bemhtml",
+                    ".bemtree.xjst"
+                ],
+                "configuration": "./bemhtml.configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "bemhtml",
+                "scopeName": "source.bemhtml",
+                "path": "./syntaxes/bemhtml.json"
+            }
+        ],
+        "snippets": [
+            {
+                "language": "bemhtml",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    },
+    "devDependencies": {
+        "vsce": "^1.3.0"
+    }
 }
