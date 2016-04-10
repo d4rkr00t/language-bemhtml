@@ -1,6 +1,6 @@
 # BEMHTML Language support for Visual Studio Code
 
-<div align="center"><img src="icon.png"></div>
+![BEMHTML](icon.png)
 
 ![BEMHTML](https://img.shields.io/maintenance/no/2016.svg)
 

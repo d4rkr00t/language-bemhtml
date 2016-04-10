@@ -5,6 +5,13 @@
   "version": "1.0.0",
   "publisher": "sysoev",
   "icon": "icon.svg",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/d4rkr00t/language-bemhtml.git"
+  },
+  "bugs": {
+    "url": "https://github.com/d4rkr00t/language-bemhtml/issues"
+  },
   "engines": {
     "vscode": "^0.10.10"
   },
@@ -12,10 +19,10 @@
     "Languages"
   ],
   "scripts": {
-      "pub": "vsce publish",
-      "patch": "vsce publish patch",
-      "minor": "vsce publish minor",
-      "major": "vsce publish major"
+    "pub": "vsce publish",
+    "patch": "vsce publish patch",
+    "minor": "vsce publish minor",
+    "major": "vsce publish major"
   },
   "contributes": {
     "languages": [
